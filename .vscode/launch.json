@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/gufei/AppData/Local/Temp/4620584f-21eb-450e-8d20-ddfce088f5e2_sqlite-amalgamation-3460100.zip.5e2/sqlite-amalgamation-3460100",
+      "program": "c:/Users/gufei/AppData/Local/Temp/4620584f-21eb-450e-8d20-ddfce088f5e2_sqlite-amalgamation-3460100.zip.5e2/sqlite-amalgamation-3460100/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
