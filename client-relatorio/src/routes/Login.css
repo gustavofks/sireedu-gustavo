@@ -1,0 +1,73 @@
+/* Estilos principais do contêiner de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Caixa de login estilizada */
+.login-box {
+  width: 350px;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título da página de login */
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilização do seletor */
+.login-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilos do botão de login */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #242124;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover no botão de login */
+.login-button:hover {
+  background-color: #333;
+}
+
+/* Ajustes para dispositivos menores */
+@media (max-width: 768px) {
+  .login-box {
+    width: 90vw;
+  }
+
+  .login-title {
+    font-size: 24px;
+  }
+
+  .login-button, .login-select {
+    font-size: 14px;
+  }
+}
